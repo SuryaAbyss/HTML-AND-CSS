@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#box{ /*this is the parent box*/
+    display: flex; /*display flex for alligning  from horizontally to vertically*/
+    justify-content: end; /*this for play in the width we can chhose left right space betweeen*/
+    align-items: center; /*for playing withe height */
+    width: 500px;
+    height: 500px;
+    background-color: gray;
+}
+#box1{
+    width: 110px;
+    height: 100px;
+    background-color: aqua;
+}
+#box2{
+    width: 110px;
+    height: 100px;
+    background-color: chartreuse;
+
+}
+
+#box3{
+    width: 110px;
+    height: 100px;
+    background-color: yellow;
+}
