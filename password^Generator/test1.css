@@ -1,0 +1,56 @@
+body{
+    background-color: aquamarine;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    background-color: rgb(207, 169, 228);
+}
+
+h1{
+    text-align: center;
+    margin-top: 10px;
+}
+label{
+    display: flex; /*display flex alligned things serrially*/
+    align-items: center;
+    margin: 5px 2px;
+}
+label:hover{
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-weight: bold;
+}
+#password{
+    margin-top: 25px;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(128, 128, 128, 0.623);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+#password:hover{
+    background-color: rgba(128, 128, 128, 0.97);
+}
+#generate{
+    margin: 20px;
+    background-color: rgb(230, 69, 69);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+#generate:hover{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: red;
+    font-weight: bold;
+}
